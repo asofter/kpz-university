@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.317,C:\Users\user\Documents\RAD Studio\Projects\MainForm.dfm=C:\Users\user\Documents\RAD Studio\Projects\Lab14CPP\MainForm.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.836,C:\Users\user\Documents\RAD Studio\Projects\Lab14CPP.cbproj=C:\Users\user\Documents\RAD Studio\Projects\Lab14CPP\Lab14CPP.cbproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.524,C:\Users\user\Documents\RAD Studio\Projects\Unit1.cpp=C:\Users\user\Documents\RAD Studio\Projects\MainForm.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.317,C:\Users\user\Documents\RAD Studio\Projects\MainForm.cpp=C:\Users\user\Documents\RAD Studio\Projects\Lab14CPP\MainForm.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.377,C:\Users\user\Documents\RAD Studio\Projects\Lab14CPP\Unit1.h=C:\Users\user\Documents\RAD Studio\Projects\Lab14CPP\Clases.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.311,C:\Users\user\Documents\RAD Studio\Projects\Lab14CPPPCH1.h=C:\Users\user\Documents\RAD Studio\Projects\Lab14CPP\Lab14CPPPCH1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.835,=C:\Users\user\Documents\RAD Studio\Projects\Lab14CPP\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.377,C:\Users\user\Documents\RAD Studio\Projects\Lab14CPP\Unit1.cpp=C:\Users\user\Documents\RAD Studio\Projects\Lab14CPP\Clases.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.237,=C:\Users\user\Documents\RAD Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.216,=C:\Users\user\Documents\RAD Studio\Projects\Project1PCH1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.302,C:\Users\user\Documents\RAD Studio\Projects\Project1PCH1.h=C:\Users\user\Documents\RAD Studio\Projects\Lab14CPPPCH1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.524,C:\Users\user\Documents\RAD Studio\Projects\Unit1.dfm=C:\Users\user\Documents\RAD Studio\Projects\MainForm.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.524,C:\Users\user\Documents\RAD Studio\Projects\Unit1.h=C:\Users\user\Documents\RAD Studio\Projects\MainForm.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.317,C:\Users\user\Documents\RAD Studio\Projects\MainForm.h=C:\Users\user\Documents\RAD Studio\Projects\Lab14CPP\MainForm.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.306,C:\Users\user\Documents\RAD Studio\Projects\Project1.cbproj=C:\Users\user\Documents\RAD Studio\Projects\Lab14CPP.cbproj</Transaction>
+    <Transaction>2014.04.03 09:14:48.508,=C:\Users\user\Documents\RAD Studio\Projects\Lab14CPP\Unit1.cpp</Transaction>
+    <Transaction>2014.04.03 09:15:01.012,C:\Users\user\Documents\RAD Studio\Projects\Lab14CPP\Triangle.h=C:\Users\user\Documents\RAD Studio\Projects\Lab14CPP\Unit1.h</Transaction>
+    <Transaction>2014.04.03 09:15:01.012,C:\Users\user\Documents\RAD Studio\Projects\Lab14CPP\Triangle.cpp=C:\Users\user\Documents\RAD Studio\Projects\Lab14CPP\Unit1.cpp</Transaction>
+    <Transaction>2014.04.03 09:18:51.286,C:\Users\user\Documents\RAD Studio\Projects\Lab14CPP\MyTriangle.h=C:\Users\user\Documents\RAD Studio\Projects\Lab14CPP\Triangle.h</Transaction>
+    <Transaction>2014.04.03 09:18:51.286,C:\Users\user\Documents\RAD Studio\Projects\Lab14CPP\MyTriangle.cpp=C:\Users\user\Documents\RAD Studio\Projects\Lab14CPP\Triangle.cpp</Transaction>
+  </Transactions>
+</BorlandProject>
