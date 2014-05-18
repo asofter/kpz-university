@@ -14,7 +14,8 @@
 #include <QStringListModel>
 #include <QTextDocumentFragment>
 #include <QShortcut>
-#include <QKeyEvent>
+#include <QUrl>
+#include <QDesktopServices>
 
 namespace Ui {
 class MainWindow;
@@ -56,8 +57,10 @@ public slots:
     void posChanged();
     void search(QString text);
     void searchClear();
+
 private slots:
     void on_pushButton_clicked();
+    void on_pushButton_2_clicked();
     void on_toolButton_clicked();
 };
 

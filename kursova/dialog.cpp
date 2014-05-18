@@ -14,7 +14,8 @@ Dialog::Dialog(QWidget *parent) :
     connect(buttonSave,  SIGNAL(clicked()), this, SLOT(butSaveClicked()));
     ui->buttonBox->addButton(tr("Cansel"), QDialogButtonBox::RejectRole);
     ui->buttonBox->addButton(buttonSave,  QDialogButtonBox::ActionRole);
-    ui->lineEdit->setToolTip(tr("tool tip name"));
+    ui->lineEdit->setToolTip("Введіть назву елементу");
+    buttonSave->setToolTip("Натисніть, щоб зберегти.");
 }
 
 Dialog::~Dialog()

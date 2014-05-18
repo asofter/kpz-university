@@ -17,12 +17,12 @@ CompanyDialog::CompanyDialog(QWidget *parent) :
     ui->faxLabel->setText(tr("Fax:"));
     ui->descriptionLabel->setText(tr("Description:"));
 
-    ui->nameLineEdit->setToolTip(tr("tool tip name"));
-    ui->addressLineEdit->setToolTip(tr("tool tip address"));
-    ui->telLineEdit->setToolTip(tr("tool tip phone"));
-    ui->mobTelLineEdit->setToolTip(tr("tool tip mob phone"));
-    ui->faxLineEdit->setToolTip(tr("tool tip fax"));
-    ui->descriptionTextEdit->setToolTip(tr("tool tip description"));
+    ui->nameLineEdit->setToolTip("Введіть назву підприємства");
+    ui->addressLineEdit->setToolTip("Введіть адресу підприємства");
+    ui->telLineEdit->setToolTip("Введіть телефон підприємства");
+    ui->mobTelLineEdit->setToolTip("Введіть мобільний телефон підприємства");
+    ui->faxLineEdit->setToolTip("Введіть факс підприємства");
+    ui->descriptionTextEdit->setToolTip("Введіть опис діяльності підприємства");
 }
 
 CompanyDialog::~CompanyDialog()

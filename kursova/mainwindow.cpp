@@ -18,6 +18,18 @@ MainWindow::MainWindow(QWidget *parent) :
     ui->pushButton->setIcon(QPixmap(":/icons/add.png"));
     ui->toolButton->setHidden(true);
 
+    ui->pushButton_2->setToolTip("Відкрити файл довідки");
+    ui->pushButton_2->setText("Довідка");
+
+    ui->pushButton->setToolTip("Натисніть, щоб додати новий елемент");
+    ui->lineEdit->setToolTip("Починайте вводити слово для пошуку потрібного елемента.");
+
+    QShortcut *helpShortcut = new QShortcut(QKeySequence("F1"), this);
+    QObject::connect(helpShortcut, SIGNAL(activated()), ui->pushButton_2, SLOT(animateClick()));
+
+    QShortcut *addShortcut = new QShortcut(QKeySequence("Ctrl+a"), this);
+    QObject::connect(addShortcut, SIGNAL(activated()), ui->pushButton, SLOT(animateClick()));
+
     listView = new QListView(this);
     ui->catTab->layout()->addWidget(listView);
     listView->setContextMenuPolicy(Qt::ActionsContextMenu);
@@ -35,6 +47,12 @@ MainWindow::MainWindow(QWidget *parent) :
 
     connect(delAct, SIGNAL(triggered()), this, SLOT(delData()));
     connect(editAct, SIGNAL(triggered()), this, SLOT(editData()));
+
+    QShortcut *delShortcut = new QShortcut(QKeySequence("Ctrl+d"), this);
+    QObject::connect(delShortcut, SIGNAL(activated()), this, SLOT(delData()));
+
+    QShortcut *editShortcut = new QShortcut(QKeySequence("Ctrl+e"), this);
+    QObject::connect(editShortcut, SIGNAL(activated()), this, SLOT(editData()));
 
     listView->addAction(delAct);
     listView->addAction(editAct);
@@ -59,7 +77,6 @@ void MainWindow::catalogCliked(QModelIndex index)
 {
     ui->toolButton->setHidden(false);
     name = index.data().toString();
-    qDebug() << name;
     if(currentPos < 3){
         currentPos++;
         searchClear();
@@ -75,7 +92,6 @@ void MainWindow::catalogCliked(QModelIndex index)
         comDiag.view();
         comDiag.setComData(sql->companyDataByName(name));
         if (comDiag.exec() == 1) {
-            qDebug()<<"save";
             sql->updateCompany(comDiag.comData());
         }
         updateCompany();
@@ -144,6 +160,10 @@ void MainWindow::editData()
             }
         }
     }
+}
+
+void MainWindow::on_pushButton_2_clicked() {
+    QDesktopServices::openUrl(QUrl::fromLocalFile("documentation.pdf"));
 }
 
 void MainWindow::on_pushButton_clicked()
